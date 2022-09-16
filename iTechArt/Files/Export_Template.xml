@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<people>
+  <person name="Mary" age="32">
+    <pets>
+      <pet name="Markiza" type="Cat" />
+      <pet name="Pushistik" type="Cat" />
+      <pet name="Belka" type="Dog" />
+    </pets>
+  </person>
+  <person name="Gary" age="18">
+    <pets>
+      <pet name="Norm" type="Dog" />
+    </pets>
+  </person>
+  <person name="Mike" age="24">
+    <pets>
+      <pet name="Bert" type="Parrot" />
+      <pet name="Gosha" type="Parrot" />
+      <pet name="Milka" type="Cat" />
+    </pets>
+  </person>
+  <person name="Alex" age="25">
+    <pets>
+      <pet name="Casper" type="Cat" />
+      <pet name="Charli" type="Dog" />
+    </pets>
+  </person>
+  <person age="32" name="Mary">
+    <pets>
+      <pet name="Markiza" type="Cat" />
+      <pet name="Pushistik" type="Cat" />
+      <pet name="Belka" type="Dog" />
+    </pets>
+  </person>
+  <person age="18" name="Gary">
+    <pets>
+      <pet name="Norm" type="Dog" />
+    </pets>
+  </person>
+  <person age="24" name="Mike">
+    <pets>
+      <pet name="Bert" type="Parrot" />
+      <pet name="Gosha" type="Parrot" />
+      <pet name="Milka" type="Cat" />
+    </pets>
+  </person>
+  <person age="25" name="Alex">
+    <pets>
+      <pet name="Casper" type="Cat" />
+      <pet name="Charli" type="Dog" />
+    </pets>
+  </person>
+  <person age="32" name="Mary">
+    <pets>
+      <pet name="Markiza" type="Cat" />
+      <pet name="Pushistik" type="Cat" />
+      <pet name="Belka" type="Dog" />
+    </pets>
+  </person>
+  <person age="18" name="Gary">
+    <pets>
+      <pet name="Norm" type="Dog" />
+    </pets>
+  </person>
+  <person age="24" name="Mike">
+    <pets>
+      <pet name="Bert" type="Parrot" />
+      <pet name="Gosha" type="Parrot" />
+      <pet name="Milka" type="Cat" />
+    </pets>
+  </person>
+  <person age="25" name="Alex">
+    <pets>
+      <pet name="Casper" type="Cat" />
+      <pet name="Charli" type="Dog" />
+    </pets>
+  </person>
+  <person age="23" name="Sanjar">
+    <pets>
+      <pet name="Rex" type="Dog" />
+      <pet name="Musy" type="Cat" />
+    </pets>
+  </person>
+  <person age="21" name="Xabison">
+    <pets>
+      <pet name="Casper" type="Parrot" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+  <person age="32" name="Mary">
+    <pets>
+      <pet name="Markiza" type="Cat" />
+      <pet name="Pushistik" type="Cat" />
+      <pet name="Belka" type="Dog" />
+    </pets>
+  </person>
+  <person age="18" name="Gary">
+    <pets>
+      <pet name="Norm" type="Dog" />
+    </pets>
+  </person>
+  <person age="24" name="Mike">
+    <pets>
+      <pet name="Bert" type="Parrot" />
+      <pet name="Gosha" type="Parrot" />
+      <pet name="Milka" type="Cat" />
+    </pets>
+  </person>
+  <person age="25" name="Alex">
+    <pets>
+      <pet name="Casper" type="Cat" />
+      <pet name="Charli" type="Dog" />
+    </pets>
+  </person>
+  <person age="23" name="Sanjar">
+    <pets>
+      <pet name="Rex" type="Dog" />
+      <pet name="Musy" type="Cat" />
+    </pets>
+  </person>
+  <person age="21" name="Xabison">
+    <pets>
+      <pet name="Casper" type="Parrot" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+  <person age="32" name="Mary">
+    <pets>
+      <pet name="Markiza" type="Cat" />
+      <pet name="Pushistik" type="Cat" />
+      <pet name="Belka" type="Dog" />
+    </pets>
+  </person>
+  <person age="18" name="Gary">
+    <pets>
+      <pet name="Norm" type="Dog" />
+    </pets>
+  </person>
+  <person age="24" name="Mike">
+    <pets>
+      <pet name="Bert" type="Parrot" />
+      <pet name="Gosha" type="Parrot" />
+      <pet name="Milka" type="Cat" />
+    </pets>
+  </person>
+  <person age="25" name="Alex">
+    <pets>
+      <pet name="Casper" type="Cat" />
+      <pet name="Charli" type="Dog" />
+    </pets>
+  </person>
+  <person age="23" name="Sanjar">
+    <pets>
+      <pet name="Rex" type="Dog" />
+      <pet name="Musy" type="Cat" />
+    </pets>
+  </person>
+  <person age="21" name="Xabison">
+    <pets>
+      <pet name="Casper" type="Parrot" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+  <person age="32" name="Mary">
+    <pets>
+      <pet name="Markiza" type="Cat" />
+      <pet name="Pushistik" type="Cat" />
+      <pet name="Belka" type="Dog" />
+    </pets>
+  </person>
+  <person age="18" name="Gary">
+    <pets>
+      <pet name="Norm" type="Dog" />
+    </pets>
+  </person>
+  <person age="24" name="Mike">
+    <pets>
+      <pet name="Bert" type="Parrot" />
+      <pet name="Gosha" type="Parrot" />
+      <pet name="Milka" type="Cat" />
+    </pets>
+  </person>
+  <person age="25" name="Alex">
+    <pets>
+      <pet name="Casper" type="Cat" />
+      <pet name="Charli" type="Dog" />
+    </pets>
+  </person>
+  <person age="23" name="Sanjar">
+    <pets>
+      <pet name="Rex" type="Dog" />
+      <pet name="Musy" type="Cat" />
+    </pets>
+  </person>
+  <person age="21" name="Xabison">
+    <pets>
+      <pet name="Casper" type="Parrot" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+  <person age="32" name="Mary">
+    <pets>
+      <pet name="Markiza" type="Cat" />
+      <pet name="Pushistik" type="Cat" />
+      <pet name="Belka" type="Dog" />
+    </pets>
+  </person>
+  <person age="18" name="Gary">
+    <pets>
+      <pet name="Norm" type="Dog" />
+    </pets>
+  </person>
+  <person age="24" name="Mike">
+    <pets>
+      <pet name="Bert" type="Parrot" />
+      <pet name="Gosha" type="Parrot" />
+      <pet name="Milka" type="Cat" />
+    </pets>
+  </person>
+  <person age="25" name="Alex">
+    <pets>
+      <pet name="Casper" type="Cat" />
+      <pet name="Charli" type="Dog" />
+    </pets>
+  </person>
+  <person age="23" name="Sanjar">
+    <pets>
+      <pet name="Rex" type="Dog" />
+      <pet name="Musy" type="Cat" />
+    </pets>
+  </person>
+  <person age="21" name="Xabison">
+    <pets>
+      <pet name="Casper" type="Parrot" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+  <person age="32" name="Mary">
+    <pets>
+      <pet name="Markiza" type="Cat" />
+      <pet name="Pushistik" type="Cat" />
+      <pet name="Belka" type="Dog" />
+    </pets>
+  </person>
+  <person age="18" name="Gary">
+    <pets>
+      <pet name="Norm" type="Dog" />
+    </pets>
+  </person>
+  <person age="24" name="Mike">
+    <pets>
+      <pet name="Bert" type="Parrot" />
+      <pet name="Gosha" type="Parrot" />
+      <pet name="Milka" type="Cat" />
+    </pets>
+  </person>
+  <person age="25" name="Alex">
+    <pets>
+      <pet name="Casper" type="Cat" />
+      <pet name="Charli" type="Dog" />
+    </pets>
+  </person>
+  <person age="23" name="Sanjar">
+    <pets>
+      <pet name="Rex" type="Dog" />
+      <pet name="Musy" type="Cat" />
+    </pets>
+  </person>
+  <person age="21" name="Xabison">
+    <pets>
+      <pet name="Casper" type="Parrot" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+  <person age="32" name="Mary">
+    <pets>
+      <pet name="Markiza" type="Cat" />
+      <pet name="Pushistik" type="Cat" />
+      <pet name="Belka" type="Dog" />
+    </pets>
+  </person>
+  <person age="18" name="Gary">
+    <pets>
+      <pet name="Norm" type="Dog" />
+    </pets>
+  </person>
+  <person age="24" name="Mike">
+    <pets>
+      <pet name="Bert" type="Parrot" />
+      <pet name="Gosha" type="Parrot" />
+      <pet name="Milka" type="Cat" />
+    </pets>
+  </person>
+  <person age="25" name="Alex">
+    <pets>
+      <pet name="Casper" type="Cat" />
+      <pet name="Charli" type="Dog" />
+    </pets>
+  </person>
+  <person age="23" name="Sanjar">
+    <pets>
+      <pet name="Rex" type="Dog" />
+      <pet name="Musy" type="Cat" />
+    </pets>
+  </person>
+  <person age="21" name="Xabison">
+    <pets>
+      <pet name="Casper" type="Parrot" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+  <person age="32" name="Mary">
+    <pets>
+      <pet name="Markiza" type="Cat" />
+      <pet name="Pushistik" type="Cat" />
+      <pet name="Belka" type="Dog" />
+    </pets>
+  </person>
+  <person age="18" name="Gary">
+    <pets>
+      <pet name="Norm" type="Dog" />
+    </pets>
+  </person>
+  <person age="24" name="Mike">
+    <pets>
+      <pet name="Bert" type="Parrot" />
+      <pet name="Gosha" type="Parrot" />
+      <pet name="Milka" type="Cat" />
+    </pets>
+  </person>
+  <person age="25" name="Alex">
+    <pets>
+      <pet name="Casper" type="Cat" />
+      <pet name="Charli" type="Dog" />
+    </pets>
+  </person>
+  <person age="23" name="Sanjar">
+    <pets>
+      <pet name="Rex" type="Dog" />
+      <pet name="Musy" type="Cat" />
+    </pets>
+  </person>
+  <person age="21" name="Xabison">
+    <pets>
+      <pet name="Casper" type="Parrot" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+  <person age="21" name="Xabison">
+    <pets>
+      <pet name="Casper" type="Parrot" />
+    </pets>
+  </person>
+  <person age="29" name="Rano">
+    <pets>
+      <pet name="Norm" type="Cat" />
+      <pet name="Pushistik" type="Dog" />
+      <pet name="Pupsik" type="Cow" />
+    </pets>
+  </person>
+</people>
