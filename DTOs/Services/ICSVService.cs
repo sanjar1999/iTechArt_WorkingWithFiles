@@ -1,7 +1,9 @@
-﻿namespace DTOs.Services
+﻿using Microsoft.AspNetCore.Http;
+
+namespace DTOs.Services
 {
     public interface ICSVService
     {
-        Task ImportCSV();
+        Task ImportCSV(IFormFile file);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using DAL;
 using DAL.Models;
+using Microsoft.AspNetCore.Http;
 #pragma warning disable
 
 namespace DTOs.Services
@@ -7,41 +8,64 @@ namespace DTOs.Services
     public class CSVService : ICSVService
     {
         private readonly ApplicationContext _applicationContext;
-        public CSVService( ApplicationContext applicationContext )
+        public CSVService(ApplicationContext applicationContext)
         {
             _applicationContext = applicationContext;
         }
 
-        public async Task ImportCSV()
+        public async Task ImportCSV(IFormFile file)
         {
             try
             {
-                //add your filepath
-                string[] csvLines = System.IO.File.ReadAllLines( @"C:\Users\SANJAR\Desktop\WorkingWithFiles\iTechArt\Files\Import_Template.csv" );
+                var extension = "." + file.FileName.Split('.')[file.FileName.Split('.').Length - 1];
 
-                for ( int i = 1; i < csvLines.Length; i++ )
+                if (extension == ".csv")
                 {
-                    string[] rowData = csvLines[i].Split( ',' );
+                    var fileName = DateTime.Now.Ticks + extension; //Create a new Name for the file due to security reasons.
+                    var pathBuilt = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
 
-                    var list = new CSV
+                    if (!Directory.Exists(pathBuilt))
                     {
-                        PersonName = rowData[0].ToString().Trim(),
-                        Age = Convert.ToInt32( rowData[1] ),
-                        Pet1 = rowData[2].ToString().Trim(),
-                        Pet1Type = rowData[3].ToString().Trim(),
-                        Pet2 = rowData[4].ToString().Trim(),
-                        Pet2Type = rowData[5].ToString().Trim(),
-                        Pet3 = rowData[6].ToString().Trim(),
-                        Pet3Type = rowData[7].ToString().Trim()
-                    };
+                        Directory.CreateDirectory(pathBuilt);
+                    }
 
-                    await _applicationContext.CSV.AddAsync( list );
-                    await _applicationContext.SaveChangesAsync();
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "Uploads", fileName);
+
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await file.CopyToAsync(stream);
+                    }
+
+                    var csvLines = File.ReadAllLines(path);
+
+                    for (int i = 1; i < csvLines.Length; i++)
+                    {
+                        var rowData = csvLines[i].Split(',');
+
+                        var list = new CSV
+                        {
+                            PersonName = rowData[0].ToString().Trim(),
+                            Age = Convert.ToInt32(rowData[1]),
+                            Pet1 = rowData[2].ToString().Trim(),
+                            Pet1Type = rowData[3].ToString().Trim(),
+                            Pet2 = rowData[4].ToString().Trim(),
+                            Pet2Type = rowData[5].ToString().Trim(),
+                            Pet3 = rowData[6].ToString().Trim(),
+                            Pet3Type = rowData[7].ToString().Trim()
+                        };
+
+                        await _applicationContext.CSV.AddAsync(list);
+                        await _applicationContext.SaveChangesAsync();
+                    }
+                }
+                else
+                {
+                    throw new Exception("Select correct File!!!");
                 }
             }
-            catch ( Exception e )
+            catch (Exception e)
             {
-                throw new ArgumentException( nameof( e ) );
+                throw new ArgumentException(nameof(e));
             }
         }
     }

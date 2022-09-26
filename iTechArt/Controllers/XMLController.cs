@@ -3,17 +3,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
 {
-    [Route( "api/[controller]" )]
+    [Route("api/[controller]")]
     [ApiController]
     public class XMLController : ControllerBase
     {
         private readonly IXMLService _xmlService;
-        public XMLController( IXMLService xmlService )
+        public XMLController(IXMLService xmlService)
         {
             _xmlService = xmlService;
         }
 
-        [HttpGet( "export" )]
+        [HttpGet("export")]
         public async Task<IActionResult> ExportToXML()
         {
             await _xmlService.ExportToXML();

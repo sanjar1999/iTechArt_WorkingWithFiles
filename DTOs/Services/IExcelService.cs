@@ -5,6 +5,6 @@ namespace DTOs.Services
 {
     public interface IExcelService
     {
-        Task ImportExcelData( );
+        Task ImportExcelData(IFormFile file);
     }
 }
